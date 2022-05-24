@@ -1,1 +1,58 @@
+body { background-color: black; 
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
 
+.money {
+  padding-left: 20px;
+  padding-right: 20px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+}
+
+.head {
+  padding: 20px; 
+  background-color: pink; 
+  border: 20px solid aqua;
+  margin: 20px; 
+  height: 150px; 
+  width: 500px; 
+  display: flex;
+  justify-content: center; 
+}
+
+.head-parent{
+  display: flex; 
+  justify-content: center;
+}
+
+.save-parent, .duration-parent, .month-parent{ 
+  display: flex; 
+  justify-content: center; 
+}
+
+.saved-block,.monthly-block,.eMonth-block{
+  display: flex; 
+  justify-content: center;
+}
+
+.saved, .everyMonth, .monthAmount {
+  padding: 10px;
+
+}
+
+h3 { 
+  color: white;
+}
+
+.total{ 
+  color: white; 
+  padding: 80px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.sub{ 
+  display:flex; 
+  justify-content: center; 
+}
